@@ -1,13 +1,11 @@
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
-  
-  console.log(getRandomInt(3));
-  // expected output: 0, 1 or 2
-  
-  console.log(getRandomInt(1));
-  // expected output: 0
-  
-  console.log(Math.random());
-  // expected output: a number from 0 to <1
-  
+var p = document.querySelector("p")
+
+p.textContent= "MY Text"
+
+p.innerHTML = "<strong>My text</strong>"
+
+var spec = document.querySelector("#special")
+
+var spe = document.querySelector("a")
+
+spe.setAttribute("href","https://www.amazon.com/")
