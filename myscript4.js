@@ -14,7 +14,8 @@ function getRandomColor(){
 
   function changeHeaderColor(){
     colorInput = getRandomColor()
-    myheader.style.color = colorInput;
+    my
+    header.style.color = colorInput;
   }
   
   // Now perform the action over intervals (milliseocnds):
